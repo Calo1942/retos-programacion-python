@@ -7,6 +7,28 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 """
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 for num in range(0, 101):
     print("")
     if num % 3 == 0 and num % 5 == 0:

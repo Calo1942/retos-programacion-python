@@ -4,13 +4,19 @@ reemplazos = {
     "í": "i",
     "ó": "o",
     "ú": "u",
-    "ñ": "n",
+    ",": "",
+    " ": "",
+    ".": "",
 }
 
-text = "áeioú"
+text = "ÁNA"
+text = text.lower()
 
+for i in reemplazos:
+    if i in text:
+        text = text.replace(i, reemplazos[i])
 
-for char in text:
-    if char in reemplazos.keys():
-        char = reemplazos[char]
-        print(char)
+print(text)
+
+xd = "hola"
+print(xd[::-1])

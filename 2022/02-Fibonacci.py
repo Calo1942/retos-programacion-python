@@ -6,6 +6,14 @@
  *   0, 1, 1, 2, 3, 5, 8, 13...
 """
 
+fibo = [0, 1]
+
+for i in range(0, 48):
+    fibo.append(fibo[-2]+fibo[-1])
+
+print(fibo)
+
+"""
 lista_fibo = []
 
 lista_fibo.append(0)
@@ -17,3 +25,4 @@ while len(lista_fibo) < 50:
     lista_fibo.append(nuevo_valor)
 
 print("lista: ", lista_fibo)
+"""
